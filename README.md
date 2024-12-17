@@ -6,6 +6,7 @@ https://github.com/merisir573/assignment2
 Swagger Link:
 
 http://localhost:4000/swagger (Gateway)
+
 http://localhost:3000/swagger (Midterm API)(NOTE: Needs to be deployed first)
 
 Video Link:
