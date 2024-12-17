@@ -11,11 +11,13 @@ Video Link:
 
 ---My Design---
 
-My design is relatively straightforward, we first build our API as images into Docker and then we use the docker compose file to deploy the gateway, at which point it deploys the API via Docker.
+My design is relatively straightforward, we first build our API as images into Docker and then we use the docker compose file to deploy the gateway, I made a POST function so that we can deploy any given API through Docker using the name and port we specify.
 
 ---Assumptions Made---
 
 A huge assumption I made was remembering a dialogue about two weeks ago in class wherein one of my fellow classmates asked how we could do three endpoints if we made one for our Midterm, at which point our professor stated that we should just deploy the one we made. The reason this is an assumption is because this isn't reflected in the PDF and thus I'm going purely by memory.
+
+However, to mitigate any potential problems caused by this assumption, I made a POST function for the gateway so as to be able to deploy any name and port specified. I'm not sure if this is technically how it's suppose to work, so this can be considered an assumption on my end.
 
 Aside from this, there weren't really any assumptions I had to make as the process was relatively straightforward.
 
